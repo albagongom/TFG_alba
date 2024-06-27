@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definimos la ruta de la carpeta de videos
-VIDEOS_DIR="../detect-videos"
+VIDEOS_DIR="../videos"
 CURRENT_DIR=$(pwd)
 
 # Verificamos que la carpeta de videos existe
@@ -35,7 +35,7 @@ for video in "$VIDEOS_DIR"/*; do
     output_faces_dir="${CURRENT_DIR}/faces-${base_name}"
 
     # Ejecutamos el script Python mp_head_pose en la carpeta de faces
-    python3 mp_head_pose.py "$output_faces_dir"
+    python3 mp_eye_head_pose.py "$output_faces_dir"
     echo -e "Ejecutado mp_head_pose.py.\n"
   
   fi

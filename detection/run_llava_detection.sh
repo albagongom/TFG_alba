@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definimos la ruta de la carpeta de videos
-VIDEOS_DIR="../detect-videos"
+VIDEOS_DIR="../videos"
 CURRENT_DIR=$(pwd)
 
 # Verificamos que la carpeta de videos existe
