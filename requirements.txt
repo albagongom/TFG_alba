@@ -1,0 +1,21 @@
+# Transcription (FFmpeg must be installed on the system)
+whisperx
+# Gaze detection
+ultralytics
+supervision
+mediapipe
+opencv-python
+numpy
+pillow
+# First approach with LLaVA (look_at_camera.py, requires Ollama)
+langchain
+langchain-community
+langchain-core
+# Video questions
+torch
+transformers
+accelerate
+bitsandbytes
+av
+# Scenes
+scenedetect[opencv]
